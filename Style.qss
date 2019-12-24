@@ -1,0 +1,40 @@
+
+/* QListWidget */
+QListWidget {background:#eee;border:none;outline:0}
+QListWidget::item:selected {background:#333;}
+QListWidget::item {color:#898989;}
+
+/* QMainWindow */
+QMainWindow {background:#eee;}
+QMainWindow::separator {height:0;border:none;width:0;}
+
+/* QTextEdit */
+QTextEdit {border:1px solid #ccd1cc;border-radius:3px;background:#fff;color:black;}
+
+/* QPushButton */
+QPushButton {background-color:#eee;color:black;border:1px solid black;border-radius:5px;margin:5px;padding:5px 15px;}
+QPushButton:pressed{background-color:#b6b6b6;}
+
+/* QMenu */
+QMenu {background-color: #eee;border: 1px solid black;}
+QMenu::item {background-color: #eee;}
+QMenu::item:selected {background-color: #ccd1cc;color: black;}
+QMenu::separator {height: 2px;background: black;margin-left: 10px;margin-right: 5px;}
+
+/* QMenuBar */
+QMenuBar {background-color: #eee;}
+QMenuBar::item {padding: 5px;background: transparent;}
+QMenuBar::item:selected {background-color: #ccd1cc;}
+
+/* QScrollBar */
+QScrollBar{background:transparent;width:15px;}
+QScrollBar::handle {background:#b6b6b6;outline:0;}
+QScrollBar::add-line {background:transparent;}
+QScrollBar::sub-line {background:transparent;}
+
+
+
+
+
+
+
