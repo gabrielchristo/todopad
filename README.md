@@ -24,8 +24,7 @@ In any other case, clone the repository and run Main.py
 
 ## Future Work (or not)
 - [Export selected task content to pdf](https://stackoverflow.com/questions/22591865/save-contents-of-qtextedit-as-pdf)
-- Encrypt json file / password protect
+- [Encrypt json file / password protect](https://pypi.org/project/pyAesCrypt/)
 - [Move items up/down in list](https://www.qtcentre.org/threads/17996-Move-items-up-and-down-in-QListWidget)
 - Implement auto save feature
-- Implement a category filter?
-- A mobile version?
+- Last modified date in json file
