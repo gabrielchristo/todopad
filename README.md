@@ -11,7 +11,7 @@ A very simple and minimalist gui python software to manage ToDo's and annotation
 
 ## Installation
 
-If you are on windows and wanna an executable, you can [download it](https://github.com/gabrielchristo/todopad/releases/download/1.0/todopad_1.0_x86.exe) or download the source code and run the following command:
+If you are on windows and wanna an executable, you can [download it](https://github.com/gabrielchristo/todopad/releases/latest) or download the source code and run the following command:
 > pyinstaller --name=Todopad --onefile --windowed --icon=app.ico Main.py
 
 In any other case, clone the repository and run
