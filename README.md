@@ -2,8 +2,6 @@
 
 A very simple and minimalist gui python software to manage ToDo's and annotations in plain text. The application uses json for persistent storage.
 
-Developed primarily for my own use.
-
 ![mainwindow](https://raw.githubusercontent.com/gabrielchristo/todopad/master/screenshot.png)
 
 ## Dependencies
@@ -13,18 +11,28 @@ Developed primarily for my own use.
 
 ## Installation
 
-If you are on windows and wanna create an executable, you can download the source code and run the following command:
-> pyinstaller --onefile --windowed --icon=app.ico Main.py
+If you are on windows and wanna an executable, you can [download it](https://github.com/gabrielchristo/todopad/releases/download/1.0/todopad_1.0_x86.exe) or download the source code and run the following command:
+> pyinstaller --name=Todopad --onefile --windowed --icon=app.ico Main.py
 
-In any other case, clone the repository and run Main.py
+In any other case, clone the repository and run
+> python Main.py
 
 ## Changelog
 
-- 2019-12-24 First release
+#### v1.1
+- Added "Save as" option
+- Internal Drag and Drop on task list
+- Last save date and version on json file
+- Helpful calendar window
+- Exporting selected task content to pdf
+- Status bar messages
+ 
+#### v1.0
+-  First release
 
 ## Future Work (or not)
-- [Export selected task content to pdf](https://stackoverflow.com/questions/22591865/save-contents-of-qtextedit-as-pdf)
 - [Encrypt json file / password protect](https://pypi.org/project/pyAesCrypt/)
-- [Move items up/down in list](https://www.qtcentre.org/threads/17996-Move-items-up-and-down-in-QListWidget)
-- Implement auto save feature
-- Last modified date in json file
+- Auto save feature
+- Search item filter with line edit
+- Splash screen
+

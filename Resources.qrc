@@ -2,5 +2,6 @@
   <qresource>
     <file>./app.ico</file>
 	<file>./Style.qss</file>
+	<file>./Ui_MainWindow.ui</file>
   </qresource>
 </RCC>
